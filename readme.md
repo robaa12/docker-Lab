@@ -84,3 +84,38 @@
   - Tag and Push the image
     ![alt text](image-22.png)
     ## [Docker Image Link](https://hub.docker.com/r/rob3a/python-app)
+
+---
+
+# Lab 2
+
+## Problem 1:
+
+- Create the two named Volumes:-
+  ![alt text](image-23.png)
+- Run the first container and attach both volumes
+  ![alt text](image-24.png)
+- Edit HTML content inside the container
+  ![alt text](image-25.png)
+- Remove the original container
+  ![alt text](image-26.png)
+- Running two containers sharing the same volume
+  ![](image-27.png)
+- Verify that they see the same html volume
+  ![alt text](image-28.png)
+
+## Problem 2:
+
+- Prepare host files
+  ![alt text](image-29.png)
+- Run nginx-bind-mount container
+  ![alt text](image-30.png)
+- Verify data is accessible
+  ![alt text](image-31.png)
+- Edit data on the host
+  ![alt text](image-33.png)
+- Files isn't deleted even when we rm the container
+  ![alt text](image-34.png)
+- Run a New Container — Verify Old Data Persists
+  ![alt text](1772803249766603161.png)
+  ![alt text](image-36.png)
