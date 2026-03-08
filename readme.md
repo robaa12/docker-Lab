@@ -119,3 +119,33 @@
 - Run a New Container — Verify Old Data Persists
   ![alt text](1772803249766603161.png)
   ![alt text](image-36.png)
+
+---
+
+# Lab 3
+
+## Step 1: Create the Two Networks
+
+![alt text](1773000692613082915.png)
+
+## Step 2: Create a Simple Flask App
+
+![alt text](image-37.png)
+
+## Step 3: Create the nginx Container (network1 only)
+
+![alt text](image-38.png)
+
+## Step 4: Create the Flask Container (BOTH networks)
+
+![alt text](image-39.png)
+
+## Step 5: Create the MariaDB Container (network2 only)
+
+![alt text](image-40.png)
+
+## Verification:
+
+![alt text](1773000987599429828.png)
+![alt text](1773001009583930034.png)
+![](image-41.png)
