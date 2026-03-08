@@ -122,7 +122,7 @@
 
 ---
 
-# Lab 3
+# Lab 3 (Network)
 
 ## Step 1: Create the Two Networks
 
@@ -149,3 +149,35 @@
 ![alt text](1773000987599429828.png)
 ![alt text](1773001009583930034.png)
 ![](image-41.png)
+
+---
+
+# Lab 4 (Docker Compose)
+
+## Step 1: Create project file structure:
+
+![alt text](image-42.png)
+
+## Step 2: Create Docker compose file:
+
+![alt text](image-43.png)
+
+## Step 3: Run Docker compose:
+
+![alt text](image-44.png)
+
+---
+
+# Lab 5 (Docker Compose (Flask + redis example) )
+
+## Step 1: Create project structure:
+
+![alt text](image-45.png)
+
+## Step 2: Create Docker Compose file:
+
+![alt text](1773005554925936468.png)
+
+## Step 3: Run Docker Compose:
+
+![alt text](image-46.png)
